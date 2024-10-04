@@ -26,4 +26,4 @@ dist-ssr
 .vercel
 
 .env.local
-.env
+/server/.env
