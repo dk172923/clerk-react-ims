@@ -8,7 +8,7 @@ import LandingPage from './Pages/Landingpage';
 // @ts-ignore
 import ProductForm from './Pages/ProductForm';
 // @ts-ignore
-import Header from './Components/Header';
+import Header from './components/Header';
 // @ts-ignore
 import ProductList from './Pages/ProductList';
 // @ts-ignore
