@@ -15,7 +15,7 @@ const AIIntegration = () => {
 
     try {
       // Send the description to the Flask API for categorization
-      const response = await axios.post('https://server-zxi0.onrender.com/api/categorize', {
+      const response = await axios.post('https://clerk-react-ims-server.vercel.app/api/categorize', {
         description,
       });
 
