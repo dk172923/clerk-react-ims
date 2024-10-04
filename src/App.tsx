@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-d
 import { SignedIn, SignedOut } from '@clerk/clerk-react';
 import './App.css';
 // @ts-ignore
-import LandingPage from './Pages/Landingpage';
+import LandingPage from './Pages/LandingPage';
 // @ts-ignore
 import ProductForm from './Pages/ProductForm';
 // @ts-ignore
