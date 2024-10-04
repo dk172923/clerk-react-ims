@@ -11,7 +11,7 @@ const app = express();
 
 // CORS setup to allow requests from the frontend
 app.use(cors({
-  origin: 'https://clerk-react-ims-client.vercel.app',
+  origin: 'https://clerk-react-ims-client.vercel.app/',
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
